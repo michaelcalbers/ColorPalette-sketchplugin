@@ -1,0 +1,23 @@
+{
+    "name" : "Color Palette Import/Export",
+    "identifier" : "michaelcalbers.ColorPalette",
+    "version" : "0.0.3",
+    "description" : "Import and/or Export a Color Palette in JSON format.",
+    "authorEmail" : "michael.c.albers@gmail.com",
+    "author" : "Michael C. Albers",
+
+    "commands" : [
+    {
+      "script" : "Color-Palette-Export.js",
+      "handler" : "onRun",
+      "name" : "Export!",
+      "identifier" : "michaelcalbers.plugin.color-palette-export"
+    },
+    {
+      "script" : "Color-Palette-Import.js",
+      "handler" : "onRun",
+      "name" : "Import!",
+      "identifier" : "michaelcalbers.plugin.color-palette-import"
+    }
+  ],
+}
